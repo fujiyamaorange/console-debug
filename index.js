@@ -11,5 +11,7 @@ console.info('info');
 console.warn('warn');
 console.error('error');
 
+// dir
+console.dir(document.location);
 
 console.log('=====End=====');
