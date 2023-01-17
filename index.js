@@ -15,7 +15,11 @@ console.error('error');
 console.dir(document.location);
 
 // table
-const friends = [["John", "Smith"], ["Tom", "Brown"], ["Emily", "Watson"]]
-console.table(friends);
+const info = {
+  'userAgent': navigator['userAgent'],
+  'language': navigator['language'],
+  'onLine': navigator['onLine'],
+}
+console.table(info);
 
 console.log('=====End=====');
