@@ -14,4 +14,8 @@ console.error('error');
 // dir
 console.dir(document.location);
 
+// table
+const friends = [["John", "Smith"], ["Tom", "Brown"], ["Emily", "Watson"]]
+console.table(friends);
+
 console.log('=====End=====');
