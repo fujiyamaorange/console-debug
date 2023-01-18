@@ -31,4 +31,14 @@ for (i = 0; i < 10000; i++) {
 console.log(count);
 console.timeEnd('counter');
 
+// trace
+function foo() {
+  function bar() {
+    console.trace();
+  }
+  bar();
+}
+
+foo();
+
 console.log('=====End=====');
